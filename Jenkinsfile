@@ -1,4 +1,3 @@
-exit
 // Project 3: Continuous Delivery to AWS ECR.
 //
 // This is Project 2 plus two new stages: Push (send the image to ECR)
