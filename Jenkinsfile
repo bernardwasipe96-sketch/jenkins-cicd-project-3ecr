@@ -1,3 +1,4 @@
+exit
 // Project 3: Continuous Delivery to AWS ECR.
 //
 // This is Project 2 plus two new stages: Push (send the image to ECR)
@@ -12,7 +13,7 @@ pipeline {
     environment {
         // ----- EDIT THESE THREE -----
         AWS_REGION  = 'us-east-1'          // your region
-        ECR_ACCOUNT = '123456789012'       // your 12-digit AWS account id
+        ECR_ACCOUNT = '540361297327'       // your 12-digit AWS account id
         ECR_REPO    = 'cicd-project-3'     // the ECR repository name
         // ----------------------------
 
